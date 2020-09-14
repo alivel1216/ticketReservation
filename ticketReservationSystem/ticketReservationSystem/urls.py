@@ -20,6 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('reservas.urls')),
     path('vuelos/', include('vuelos.urls')),
-    #path('pagos/', include('pagos.urls')),
+    path('pagos/', include('pagos.urls')),
     path('registro/', include('users.urls')),
 ]
